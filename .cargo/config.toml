@@ -1,0 +1,11 @@
+[alias]     # command aliases
+b = "build"
+c = "check"
+t = "test"
+r = "run"
+rr = "run --release"
+
+
+[build]
+#jobs = 4                      # number of parallel jobs, defaults to # of CPUs
+rustc = "rustc"               # the rust compiler tool
